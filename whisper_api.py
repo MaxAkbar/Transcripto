@@ -40,3 +40,5 @@ async def transcribe_audio(
 
     # Return the transcription in JSON format
     return TranscriptionResponse(text=transcription_text)
+
+# run the file with the following command: uvicorn whisper_api:app --host 127.0.0.1 --port 8000 --reload
